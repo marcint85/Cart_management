@@ -1,5 +1,7 @@
-AplikacjaZarządzaniaKoszykiem:
+AplikacjaZarządzaniaKoszykiem.
+
 Autor: Marcin Tarnowski
+
 kontakt: marcin.tarnowski2@gmail.com
 
 Zbudowana jest z trzech klas:
@@ -8,6 +10,7 @@ Zbudowana jest z trzech klas:
 
 - przechowuje dane o rodzaju produktu: (nazwa, cena, opis),
 - posiada metody get dla każdego pola,
+
 2) Cart 
 
 - pełni rolę koszyka do którego wkładane są wybrane produkty,
@@ -16,6 +19,7 @@ Zbudowana jest z trzech klas:
 - metoda displayProducts() drukuje w konsoli rodzaje produktow i ilosci dodane do koszyka oraz numer porzadkowy wykorzystywany w menu interfejsu uzytkownika,
 - metody totalCost() i totalQuantity() zwracają łączną ilość i koszt produktów znajdujących się w koszyku,
 - metody getKeySet() i getMap() zwracja Set lub Mape,
+
 3) Shop 
 
 - przechowuje produkty możliwe do nabycia w kolekcji LinkedList,
